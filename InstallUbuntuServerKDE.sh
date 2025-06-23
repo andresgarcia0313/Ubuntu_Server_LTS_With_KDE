@@ -11,7 +11,7 @@ sudo apt install -y firefox
 sudo apt install -y curl
 sudo apt install -y wget
 sudo apt install -y unzip
-sudo apt install -y git
+sudo apt install -y git gh
 sudo apt install -y libreoffice
 sudo apt install -y libreoffice-kf5
 sudo apt install -y libreoffice-style-breeze
@@ -75,4 +75,6 @@ nvm use --lts
 npm install -g npm
 npm i -g bash-language-server
 
+gh auth login
+# gh repo create . --public --source=. --push
 
